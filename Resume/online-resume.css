@@ -1,0 +1,25 @@
+
+
+body {
+    background-color: black;
+    color: whitesmoke;
+   
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 .box2{
+    
+    flex-direction: row;
+    border: solid;
+
+}
+    
+
+.box3 {
+    align-content:  end;
+    justify-content: center;
+}

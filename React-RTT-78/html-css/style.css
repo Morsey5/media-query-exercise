@@ -1,0 +1,64 @@
+body {
+    background-color: darkslategrey;
+    color: black;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: coral;
+}
+
+#intro {
+    font-size: 1.3em;
+}
+
+.colorful { 
+    color: orange;
+}
+
+section { border: 5px solid black; padding: 10px; background-color: #dbffe;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* class selector */
+
+.active {
+    background-color: teal;
+}
+
+.login-user {
+    margin-right: 0.5;
+    height: 1em;
+    
+}
