@@ -1,4 +1,6 @@
-
+*/* {
+    border: solid white;
+}*/
 
 body {
     background-color: black;
@@ -9,17 +11,59 @@ body {
 .first{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+.container1 {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.box1 {
+    width: 75%;
+
+}
+
+.second {
+    width: 60%;
+}
+
+.third {
+    width: 40%;
+}
+
+.box2 {
+    width: 25%;
+}
+
+.box3 {
+    width: 100%;
+    align-content: flex-end;
 }
 
 .box1 .box2{
     
-    flex-direction: row;
-    border: solid;
+    flex-direction:row;
+    
 
 }
     
 
-.box3 {
-    align-content:  end;
-    justify-content: center;
+.box1 .box2 .box3 {
+    flex-direction: column;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#fill {
+    background-color: yellow;
+    border-radius: 50%;
 }
